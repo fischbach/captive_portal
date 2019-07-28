@@ -23,7 +23,8 @@ variables:
     type_hint: text
   - name: auth_profile_name
     description: radius auth profile created earlier
-
+    default: Duo_auth_profile
+    type_hint: text
 
 snippets:
     - name: captive_portal
