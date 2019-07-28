@@ -1,8 +1,8 @@
   <captive-portal>
       <timer>30</timer>
       <mode><redirect/></mode>
-      <redirect-host>192.168.45.20</redirect-host>
+      <redirect-host>{{ redirect_host_ip }}</redirect-host>
       <enable-captive-portal>yes</enable-captive-portal>
-      <ssl-tls-service-profile>cp-ssl-tls-service-profile</ssl-tls-service-profile>
-      <authentication-profile>Duo_auth_profile</authentication-profile>
+      <ssl-tls-service-profile>{{ ssl_tls_service_profile }}</ssl-tls-service-profile>
+      <authentication-profile>{{ auth_profile_name }}</authentication-profile>
     </captive-portal>
