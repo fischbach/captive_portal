@@ -28,5 +28,5 @@ variables:
 
 snippets:
     - name: captive_portal
-      xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/captive-portal
+      xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/
       file: 0-captive_portal.xml
